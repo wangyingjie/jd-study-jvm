@@ -14,6 +14,8 @@ public class GCTest {
      * 运行参数
      * -Xms30m -Xmx30m -XX:+PrintGCDetails -XX:+PrintHeapAtGC -XX:+UseParNewGC
      *
+     * -server -verbose -Xms10m -Xmx10m -XX:+PrintGC -XX:+DoEscapeAnalysis -XX:+UseTLAB -XX:+EliminateAllocations
+     *
      * @param args
      */
     public static void main(String[] args) {
