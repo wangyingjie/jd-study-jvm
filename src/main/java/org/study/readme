@@ -1,0 +1,6 @@
+
+jvm启动参数配置-XX:+PrintGCDetails -XX:+PrintGCDateStamps -Xloggc:[log_path]，以记录gc日志，便于排查问题。
+
+
+
+
