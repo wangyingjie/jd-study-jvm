@@ -1,6 +1,11 @@
 package org.study.gc;
 
 /**
+ * -XX:+PrintHeapAtGC  -Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+PrintHeapAtGC -XX:+UseParNewGC
+ * 打印gc时线程停顿时间：
+ *  -XX:+PrintGCApplicationStoppedTime
+ *
+ *
  * <p>Desc: </p>
  * <p>Date:2020/6/15 15:09</p>
  *
